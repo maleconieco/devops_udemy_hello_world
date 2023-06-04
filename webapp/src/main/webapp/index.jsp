@@ -9,10 +9,10 @@
   <%
     } else {
   %>
-      <h2>Number is too low...</h2><p>(<%= num %>)</p>
+      <h3>Number is too low...</h3><p>(<%= num %>)</p>
   <%
     }
   %>
-  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+  <a href="<%= request.getRequestURI() %>"><h4>Try Again</h4></a>
 </body>
 </html>
